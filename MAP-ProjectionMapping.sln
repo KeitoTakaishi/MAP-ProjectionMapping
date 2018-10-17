@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAP-ProjectionMapping", "Assembly-CSharp.csproj", "{9F8818B3-550A-99BC-9E4B-B795D575DF04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9F8818B3-550A-99BC-9E4B-B795D575DF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAP-ProjectionMapping", "Assembly-CSharp-Editor.csproj", "{4F73A856-CAAE-52E9-AD8D-0B007DE207D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4F73A856-CAAE-52E9-AD8D-0B007DE207D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
