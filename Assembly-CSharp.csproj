@@ -55,8 +55,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Controller Tester\Scripts\DetectUnknownControllerMappings.cs" />
     <Compile Include="Assets\Funnel\UnityProject\Assets\Funnel\Funnel.cs" />
     <Compile Include="Assets\Funnel\UnityProject\Assets\Test\CopyFromFunnel.cs" />
+    <Compile Include="Assets\MaterialKit\Scripts\State.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -113,6 +115,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\MaterialKit\Shaders\Blocks.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\Funnel\UnityProject\ProjectSettings\ProjectVersion.txt" />
@@ -128,7 +131,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-    <None Include="Assets\MaterialKit\Shaders\Movie.shader" />
+    <None Include="Assets\MaterialKit\Shaders\MovieRun.shader" />
     <None Include="Assets\Funnel\UnityProject\Assets\Funnel\Shader\Gamma.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
