@@ -14,6 +14,10 @@
             #pragma fragment frag
             #pragma target 3.0
             #include "UnityCG.cginc"
+            
+            float rand(float2 co){
+                return frac(sin(dot(co.xy ,float2(12.9898,78.233))) * 43758.5453);
+            }   
     
             struct appdata
             {
@@ -40,8 +44,13 @@
             
             fixed4 frag(v2f i) : SV_Target
             {
-                float2 uv = floor(i.uv*15.0 / 15.0);
-                fixed4 col = tex2D(_MainTex, uv);
+                float blokNum = 15.0;
+                float2 uv = i.uv;
+                uv.x += _Time.x;
+                uv.x = fmod(uv.x,1.0);
+                //uv = floor(i.uv*blokNum / blokNum);
+                fixed4 col = fixed4(rand(uv), rand(uv), rand(uv), 1.0); 
+                
                 return col;
             }
 		ENDCG
